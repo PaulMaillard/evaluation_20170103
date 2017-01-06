@@ -68,7 +68,7 @@ def eval():
 
 def write():
     # on ouvre le fichier index.html en mode ecriture (ou on le cree si le fichier n'existe pas) la variable f correspond au fichier
-    with open("index.html","w+") as f:
+    with open("resultat/index.html","w+") as f:
         i = 0
         j = 0
         # cette fonction ecrit le nom de la thematique dans les balises html appropriees
